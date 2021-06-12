@@ -80,3 +80,13 @@ type arrType = typeof arr[number];
 https://blog.logrocket.com/const-assertions-are-the-killer-new-typescript-feature-b73451f35802/
 
 ## Never type
+
+## Interface to describe function
+
+```typescript
+interface IFormatter {
+  (a: string): number;
+}
+
+const a: IFormatter = (a) => 5;
+```

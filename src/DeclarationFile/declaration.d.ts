@@ -1,3 +1,0 @@
-interface DeclarationInterface {
-  a: number;
-}
